@@ -699,7 +699,7 @@ top: -150%;
 .last-heading{
   width: 100%;
   background-color:RGBA(109, 199, 227);
-  max-height: 100px;
+  height: 100px;
   position: relative;
   /* bottom: 102%; */
   font-size: 30px;
@@ -996,4 +996,53 @@ hr{
     position: absolute;
     display: block;
   }
+.page-manu{
+  position: relative;
+  top: 170px;
+}
+.bottom-banner-container{
+  position: relative;
+  top: 170px;
+}
+.latest-button-eliment{
+  position: relative;
+  top: 170px;
+  
+}
+.latest-button{
+  width: 630px;
+}
+.buttom-logo>img{
+  position: relative;
+  left: 144px;
+}
+.buttom-logo h6{
+  font-size: 12px;
+  text-align: center;
+  width: 462x;
+}
+.last-heading{
+  position: relative;
+  
+  height: 112px;
+  top: 173px;
+        height: 178px;
+  
+}
+.button-buttom{
+  position: relative;
+  top: -14px;
+  left: 86px;
+        width: 404px;
+}
+.dark{
+  position: relative;
+  top: 173px;
+}
+.last-heading h2{
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+        left: 31px;
+}
 }
