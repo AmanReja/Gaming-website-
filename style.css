@@ -813,6 +813,9 @@ hr{
   color: #ff4848;
 }
 @media only screen and (max-width: 600px){
+
+
+
   .header-container{
     width: 100%;
     height: 70px;
@@ -866,5 +869,126 @@ hr{
   .logo{
     position: relative;
     left: -30px;
+  }
+.slider{
+  width: max-content;
+  overflow: hidden;
+  position: relative;
+  left: -25px;
+  
+}
+.list{
+  position: relative;
+  width: 100%;
+}
+.paragraph{
+  /* display: flex; */
+  width: 100vw;
+  height: 500px;
+  align-items: center;
+  flex-direction: column;
+  
+        position: relative;
+        right: -69px;
+        top: 97px;
+        height: 418px;
+        display: none;
+    
+}
+  
+
+
+
+}
+
+@media only screen and (max-width: 450px){
+  .header-container{
+    width: 100%;
+    height: 70px;
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  .nav-container{
+    position: absolute;
+    top: 80px;
+    height: 162px;
+    display: flex;
+    flex-direction: column;
+    left: -100%;
+    gap: 12px;
+    background-color: fuchsia;
+    width: 100%;
+    transition: all 0.3s;
+  }
+  .nav-container a{
+    position: relative;
+    top: 15px;
+  }
+.bar-container{
+  display: block;
+  position: relative;
+  left: -50px;
+
+}
+#bar{position: relative;
+  
+}
+.buttons{
+  position: absolute;
+  top: 28%;
+}
+.open-list{
+  position: absolute;
+  left: 0;
+ 
+}
+.action-container{
+  gap: 12px;
+  left: -200px;
+}
+
+.icon{
+  position: relative;
+  left: -20px;
+}
+
+  .logo{
+    position: relative;
+    left: -30px;
+  }
+  .slider{
+    width: 100vw;
+    
+    position: absolute;
+    top: 40px;
+    left: 45px;
+    
+    
+  }
+  .paragraph{
+    display: flex;
+    width: 100%;
+    position: relative;
+    top: 282px;
+    left: 14px;
+  }
+  .items-containers{
+    position: relative;
+    /* left: 48px; */
+    top: 163px;
+    
+    border-radius: 3px;
+  }
+  .item{
+    width: max-content;
+    height: 121px;
+  }
+.list{
+  width: 100vw;
+}
+
+  main{
+    width: 137vw;
+    position: relative;
   }
 }
