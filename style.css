@@ -179,10 +179,11 @@
  .manu-display li:hover{
   background-color: rgb(200, 20, 149);
 }
-
-@media only screen and (max-width: 700px){
+/* @media only screen and (max-width: 300px){
   .bar-container{
     display: block;
+    position: relative;
+    left: -100px;
   }
   .nav-container{
     position: fixed;
@@ -194,182 +195,24 @@
 
     
   }
-  .last-heading{
-    width: 10%;
-    background-color:RGBA(109, 199, 227);
-    height: 300px;
+  .action-container{
+    max-width: 200px;
+    gap:3px;
     position: relative;
-    bottom: 102%;
-    font-size: 30px;
-    display: block;
-    /* flex-wrap: wrap; */
-    justify-content: space-around;
-    align-items: center;
+    left: -300px;
   }
-  .last-heading h2{
-    width: 454px;
-    height: 51px;
-    font-size: 14px;
-    position: relative;
-    left: 14%;
-    align-items: center;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-} .Learn-more{
-  width: 125px;
-  height: 28px;
-  padding: 16 24px;
-  margin: 20px 30px;
-  border: 2px solid hsl(0, 90%, 4%);
-  color: #151212;
- background: transparent;
- font-size: 20px;
- transition: all 0.2s;
- position: relative;
-  bottom: -7px;
-  transition: all 0.5s;
   
-    
-  }
 
-  .Learn-more:hover{
-    transform: scale(1.1);
-  }
- 
-}
-  
+} */
+
+
   
   
   
 
 
-@media only screen and (max-width: 700px){
-  .dark{
-    width:100% ;
-    height:200px;
-    /* padding: 19px 186px; */
-    border: none;
-    background-color: #f9f7f7;
-    /* display: flex;
-    flex-wrap: wrap; */
-    
-    overflow: hidden;
-    position: relative;
-   
-  }
-  .dark a{
-    list-style: none;
-    text-decoration: none;
-    color: rgb(20, 1, 1);
-    transition: all 0.5s;
-    /* overflow: hidden; */
-   
-  }
-  .dark ul{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    flex-direction: column;
-    text-align: center;
-    gap: 5px;
-    width: 100%;
-    
-  }
-
-
-  .paragraph-aman{
-    
-    display: none;
-  }
-
-
-
-  
-  .items-containers{
-    max-height: max-content;
-     
-      margin-left:5% ;
-      margin-right:5%;
-      max-width: 100%;
-     
-   
-   
-     display: flex;
-     justify-content: space-around;
-     flex-wrap: wrap;
-     column-gap: 12px;
-     row-gap: 30px;
-     
-    
-    
-     
-   overflow-x: scroll;
-   
-   
-     
-    }
-    .items-containers::-webkit-scrollbar{
-     display: none;
-   }
-
-  .bar-container{
-    display: block;
-  }
-  .nav-container{
-    position: fixed;
-    top: 50px;
-    background-color: #f81fc5;
-    width: 100%;
-    padding: 10px 0 25px;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    gap: 12px;
-   
-    
-  }
-  .nav-link:hover{
-    color: rgb(0, 191, 255);
-  }
-  .open-list{
-    left:-100%;
-    transition: all 0.3s;
-  }
-  .bottom-banner-container{
-    
-    overflow: hidden;
-    width: 500px;
-    height: 200px;
-  }
-  .buttom-logo h6{
-    padding: -1px 30px;
-    font-size: 11px;
-    width: 56%;
-  }
-  .bottom-banner-container::-webkit-scrollbar{
-    display: none;
-  }
-.bottom-banner{
-  object-fit: contain;
-  display: block;
-  overflow: hidden;
-  position: relative;
- 
-  overflow: hidden;
-  width: 500px;
-  
-}
-
-.button-buttom{
-
-  position: relative;
-  top: -65px;
   
 
-}
-    
-  }
   .nan-item{
     margin: 16px 0 ;
     
@@ -426,55 +269,7 @@
 /* body{
   overflow: hidden;
 } */
-@media only screen and (max-width: 1000px){
 
-  
-
-  .header-container{
-    padding: 0 10px;
-  }
-  .action-container{
-    max-width: 200px;
-    gap:10px;
-    position: relative;
-    left: -70px;
-  }
-  .icon{
-    position: relative;
-    left: 50px;
-
-  }
-  .input-container{
-    position: relative;
-    left: -14px;
-    width: 250px;
-    height: 50px;
-    font-size: 3px;
-    z-index: 30;
-    display: block;
-    
-
-   
-  }
-  .input-bar{
-     /* padding: 12px 12px; */
-    position: relative;
-   /* left:1px ; */
-    width: 198px; 
-    top:-3px;
-   
-    outline: none;
-    height: 40px; 
-    display: block;
-
-  }
-  
-  .arrow{
-    position: absolute;
-    left: 10px;
-  }
-  
-}
 
 .footer-container{
   width: 100%;
@@ -535,6 +330,7 @@
   filter: grayscale(100%);
   transition: transform 0.5s;
   z-index: 3;
+  
 
   
   
@@ -1015,4 +811,60 @@ hr{
 .dark a:hover {
   
   color: #ff4848;
+}
+@media only screen and (max-width: 600px){
+  .header-container{
+    width: 100%;
+    height: 70px;
+    /* display: flex;
+    flex-wrap: wrap; */
+  }
+  .nav-container{
+    position: absolute;
+    top: 80px;
+    height: 162px;
+    display: flex;
+    flex-direction: column;
+    left: -100%;
+    gap: 12px;
+    background-color: fuchsia;
+    width: 100%;
+    transition: all 0.3s;
+  }
+  .nav-container a{
+    position: relative;
+    top: 15px;
+  }
+.bar-container{
+  display: block;
+  position: relative;
+  left: -50px;
+
+}
+#bar{position: relative;
+  
+}
+.buttons{
+  position: absolute;
+  top: 28%;
+}
+.open-list{
+  position: absolute;
+  left: 0;
+ 
+}
+.action-container{
+  gap: 12px;
+  left: -200px;
+}
+
+.icon{
+  position: relative;
+  left: -20px;
+}
+
+  .logo{
+    position: relative;
+    left: -30px;
+  }
 }
