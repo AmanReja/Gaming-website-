@@ -962,15 +962,19 @@ hr{
     position: absolute;
     top: 40px;
     left: 45px;
+    display: none;
     
     
   }
   .paragraph{
     display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 100%;
     position: relative;
     top: 282px;
     left: 14px;
+    text-align: center;
   }
   .items-containers{
     position: relative;
@@ -988,7 +992,7 @@ hr{
 }
 
   main{
-    width: 137vw;
-    position: relative;
+    width: 130vw;
+    position: absolute;
   }
 }
