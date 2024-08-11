@@ -949,6 +949,13 @@ top: 30%;
         margin-bottom: 122px;
     
 }
+.paragraph p{
+  font-size: 9px;
+}
+.paragraph p span{
+  font-size: 7px;
+  
+}
  .main-container{
   /* width: fit-content;
   object-position: center; */
