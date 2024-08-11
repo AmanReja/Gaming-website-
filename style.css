@@ -932,11 +932,11 @@ font-size: 55px;
         display: flex;
     
 }
-.main-container{
+/* .main-container{
   width: fit-content;
-  /* object-position: center; */
+  object-position: center;
 
-}
+} */
 .footer-base{
   width: 100%;
   position: relative;
