@@ -5,9 +5,12 @@
   list-style: circle;
   
   
+  
  
 }
-
+body{
+  overflow-x: hidden;
+}
 
 .hide{
  visibility: hidden;
@@ -36,6 +39,7 @@
   position: fixed;
   z-index: 30;
   top: 0;
+  
  
 }
 .nav-container{
