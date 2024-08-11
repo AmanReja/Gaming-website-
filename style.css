@@ -832,7 +832,7 @@ hr{
     top: 108px;
     left: 200px;
   }
-
+  
 
   .header-container{
     width: fit-content;
@@ -940,11 +940,12 @@ font-size: 55px;
         display: flex;
     
 }
-/* .main-container{
-  width: fit-content;
-  object-position: center;
+ .main-container{
+  /* width: fit-content;
+  object-position: center; */
+  padding:0;
 
-} */
+}
 .footer-base{
   width: 100%;
   position: relative;
