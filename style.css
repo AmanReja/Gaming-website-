@@ -840,7 +840,7 @@ hr{
   
 
   .header-container{
-    width: fit-content;
+    width: 100%;
     height: 90px;
     display: flex;
     flex-wrap: wrap;
