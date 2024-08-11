@@ -813,7 +813,13 @@ hr{
   
   color: #ff4848;
 }
-@media only screen and (max-width: 360px){
+@media only screen and (max-width: 600px){
+  body{
+    overflow-x:hidden;
+  }
+  body::-webkit-scrollbar{
+    display: none;
+  }
   .input-bar{
     width: 94%;
     position: relative;
@@ -833,6 +839,8 @@ hr{
     height: 90px;
     display: flex;
     flex-wrap: wrap;
+    
+
   }
   .nav-container{
     position: absolute;
