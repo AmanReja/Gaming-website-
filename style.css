@@ -1002,51 +1002,51 @@ top: 30%;
     bottom: 90px;
     width: 237px;
   }
-/* .items-containers{
+.items-containers{
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   column-gap: 10px;
-  row-gap: 12px;
+  /* row-gap: 12px; */
   grid-template-columns: 1fr 1fr;
-}  */
-/* 
+} 
+
 .game{
   width: 200px;
   height: 100px;
-} */
+}
 
-/* .card{
+.card{
   width: 200px;
   height: 100px;
-} */
-/* .logo-layout{
+}
+.logo-layout{
   width: 54px;
         position: relative;
         top: -175px;
         left: 41px;
 
-} */
+}
 
 
-/* .info {
+.info {
   display: none;
-} */
+}
 
-/* .game:hover .info a{
+.game:hover .info a{
   opacity: 1;  
   top: -150%;
   top: -61px;
     left: -3px;
     font-size: 12px;
   
-   } */
-   /* .game:hover .logo-layout{
+   }
+   .game:hover .logo-layout{
     opacity: 1;  
     top: -200%;
     z-index: 3;
     
-} */
+}
 
 .last-heading{
   position: relative;
