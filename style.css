@@ -946,11 +946,24 @@ top: 30%;
         margin-bottom: 122px;
     
 }
+.paragraph h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .paragraph p{
-  font-size: 9px;
+  font-size: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 .paragraph p span{
-  font-size: 7px;
+  font-size: 9px;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+
   
 }
  .main-container{
@@ -1002,29 +1015,32 @@ top: 30%;
   column-gap: 10px;
   row-gap: 12px;
   grid-template-columns: 1fr 1fr;
+  padding: 12px 12px;
+  position: relative;
+  left: -4px;
 } 
 
 .game{
-  width: 200px;
-  height: 100px;
+  width: 310px;
+  height: 280px;
 }
 
 .card{
-  width: 200px;
-  height: 100px;
+  width: 310px;
+  height: 280px;
 }
-.logo-layout{
+/* .logo-layout{
   width: 54px;
         position: relative;
         top: -175px;
         left: 41px;
 
-}
+} */
 
 
-.info {
+/* .info {
   display: none;
-}
+} */
 
 .game:hover .info a{
   opacity: 1;  
