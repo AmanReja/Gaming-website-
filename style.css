@@ -947,9 +947,17 @@ top: 30%;
     
 }
 .paragraph h2{
-  font-family: "Bebas Neue", sans-serif;
-  font-weight: 400;
+  font-family: "Luckiest Guy", cursive;
+  font-weight: 600;
   font-style: normal;
+  color:#00bfff;
+  text-transform: uppercase;
+  text-indent: 12px;
+  font-size: 30px;
+ 	
+ 
+ 	
+text-shadow: 0px 0px 6px rgba(255,255,255,0.7);
 }
 
 .paragraph p{
@@ -991,20 +999,26 @@ top: 30%;
     width: 59%;
     
     position: relative;
-    left: -67px;
-    top: -67px;
+    left: -78px;
+        top: 8px;
   }
 
   .buttom-logo h6{
-    width: 41%;
+    width: 71%;
         font-size: 10px;
         position: relative;
-        left: 10px;
-        top: -77px;
+        left: -96px;
+        
+        top: -45px;
+        font-family: "Bebas Neue", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        text-align: -webkit-center;
   }
   .buttom-logo>img {
     position: relative;
-    left: 3px;
+    left: -15px;
     bottom: 90px;
     width: 237px;
   }
