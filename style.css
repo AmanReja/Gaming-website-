@@ -270,9 +270,9 @@ body{
   }
 
 
-/* body{
+body{
   overflow: hidden;
-} */
+}
 
 
 .footer-container{
@@ -881,7 +881,7 @@ font-size: 55px;
 }
 
 .bag{
-  /* font-size: 30px; */
+  font-size: 30px;
   position: absolute;
   /* width: 100px;
   height: 60px; */
@@ -962,8 +962,8 @@ top: 30%;
   
 }
  .main-container{
-  width: fit-content; 
-  object-position: center; 
+  /* width: fit-content;
+  object-position: center; */
   padding:0;
 
 }
