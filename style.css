@@ -962,9 +962,11 @@ top: 30%;
   
 }
  .main-container{
-  /* width: fit-content;
-  object-position: center; */
+  width: fit-content;
+  object-position: center;
   padding:0;
+  width: 100%;
+  overflow-x: hidden;
 
 }
 .footer-base{
@@ -1088,6 +1090,10 @@ top: 30%;
   width: 126px;
         height: 33px;
         text-align: center;
+}
+
+body{
+  overflow-x: hidden;
 }
 
 }
