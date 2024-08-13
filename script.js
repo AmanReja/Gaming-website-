@@ -1,7 +1,11 @@
 const display = document.querySelector(".input-container");
 const search = document.querySelector(".icon");
+const okbutton = document.querySelector(".Ok-button");
 
 search.addEventListener("click", () => {
+  display.classList.toggle("hide");
+});
+okbutton.addEventListener("click", () => {
   display.classList.toggle("hide");
 });
 
@@ -28,9 +32,11 @@ slider.addEventListener("wheel", (evt) => {
 const menu = document.querySelector(".nav-container");
 console.log(menu);
 const hambarger = document.querySelector(".bar-container");
+
 console.log(hambarger);
 hambarger.addEventListener("click", () => {
   menu.classList.toggle("open-list");
+
   // hambarger.classList.toggle("open-list");
 });
 // */for menu toggle//
