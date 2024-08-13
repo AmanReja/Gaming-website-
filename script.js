@@ -17,12 +17,12 @@ slider.addEventListener("wheel", (evt) => {
   evt.preventDefault();
   slider.scrollLeft += evt.deltaY;
 });
-next.addEventListener("click", () => {
-  slider.scrollLeft += 1000;
-});
-prev.addEventListener("click", () => {
-  slider.scrollLeft -= 1000;
-});
+// next.addEventListener("click", () => {
+//   slider.scrollLeft += 1000;
+// });
+// prev.addEventListener("click", () => {
+//   slider.scrollLeft -= 1000;
+// });
 
 // */for menu toggle//
 const menu = document.querySelector(".nav-container");
