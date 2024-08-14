@@ -12,6 +12,14 @@
 
 .hide{
  visibility: hidden;
+ position: relative;
+ left: -177px;
+ width: 400px;
+ height: 50px;
+ font-size: 3px;
+ z-index: -3;
+ 
+ top: 77px;
   
 }
 .bar-container{
@@ -231,6 +239,7 @@
     height: 50px;
     font-size: 3px;
     z-index: -3;
+    visibility: visible;
     
     top: 77px;
     
@@ -857,12 +866,21 @@ hr{
     left: 12px;
   }
 
-  .input-container{
+  .hide{
 
     width: 173px;
     position: absolute;
     top: 91px;
     left: 183px;
+    visibility: hidden;
+  }
+  .input-container{
+    width: 173px;
+    position: absolute;
+    top: 91px;
+    left: 183px;
+    visibility: visible;
+    
   }
   
 
