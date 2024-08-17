@@ -41,9 +41,19 @@
             <path d="m280-400 200-201 200 201H280Z" />
           </svg>
         </div>
-        <input class="input-bar" type="text" placeholder="search here" />
+        <input
+          id="input-bar"
+          class="input-bar"
+          type="text"
+          placeholder="search here"
+          onkeyup="productSearch ()"
+        />
 
-        <label for="Ok-button"><button class="Ok-button">OK</button></label>
+        <label for="Ok-button"
+          ><button type="submit" class="Ok-button" id="Ok-button">
+            OK
+          </button></label
+        >
       </div>
 
       <div class="action-container">
@@ -117,7 +127,7 @@
           Great Game Guarantee.
         </p>
       </div>
-      <div class="items-containers">
+      <div class="items-containers" id="items-containers">
         <div class="game">
           <div class="card">
             <img
@@ -127,10 +137,12 @@
             />
           </div>
           <span><img class="logo-layout" src="/logos/image.png" alt="" /></span>
+
           <div class="info">
             <a target="_blank" href="https://www.ea.com/games/battlefield"
               >Official website</a
             >
+            <h2>battlefield</h2>
           </div>
         </div>
         <div class="game">
@@ -150,6 +162,7 @@
               href="https://www.ubisoft.com/en-gb/game/watch-dogs/legion"
               >Official website</a
             >
+            <h2>watchdog</h2>
           </div>
         </div>
         <div class="game">
@@ -172,6 +185,7 @@
               href="https://insomniac.games/game/marvels-spider-man-2/"
               >Official website</a
             >
+            <h2>spiderman-2</h2>
           </div>
         </div>
         <div class="game">
@@ -190,6 +204,7 @@
           /></span>
           <div class="info">
             <a target="_blank" href="#">Official website</a>
+            <h2>riders republic</h2>
           </div>
         </div>
         <div class="game">
@@ -208,6 +223,7 @@
           /></span>
           <div class="info">
             <a target="_blank" href="#">Official website</a>
+            <h2>the first descendant</h2>
           </div>
         </div>
         <div class="game">
@@ -226,6 +242,7 @@
           /></span>
           <div class="info">
             <a target="_blank" href="#">Official website</a>
+            <h2>world war z</h2>
           </div>
         </div>
         <div class="game">
@@ -244,6 +261,7 @@
           /></span>
           <div class="info">
             <a target="_blank" href="#">Official website</a>
+            <h2>horizon</h2>
           </div>
         </div>
         <div class="game">
@@ -262,6 +280,7 @@
           /></span>
           <div class="info">
             <a target="_blank" href="#">Official website</a>
+            <h2>god of war</h2>
           </div>
         </div>
         <div class="game">
@@ -280,6 +299,7 @@
           /></span>
           <div class="info">
             <a target="_blank" href="#">Official website</a>
+            <h2>avengers</h2>
           </div>
         </div>
       </div>

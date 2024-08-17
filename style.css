@@ -537,6 +537,8 @@ z-index: 3; */
   top: -126%;
   opacity: 0;
   transition: all 0.5s;
+  flex-direction: column;
+  align-items: center;
   
 
  } 

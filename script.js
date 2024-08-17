@@ -55,3 +55,25 @@ hambarger.addEventListener("click", () => {
   // hambarger.classList.toggle("open-list");
 });
 // */for menu toggle//
+
+const productSearch = () => {
+  let searchbox = document.querySelector("#input-bar").value.toUpperCase();
+  let storeitem = document.querySelector(".items-containers");
+  let product = document.querySelectorAll(".game");
+  // let logolayout = document.querySelector("logo-layout");
+  let myname = storeitem.getElementsByTagName("h2");
+
+  for (var i = 0; i < myname.length; i++) {
+    let match = product[i].getElementsByTagName("h2")[0];
+
+    if (match) {
+      let textvalue = match.textContent || match.innerHTML;
+
+      if (textvalue.toUpperCase().indexOf(searchbox) > -1) {
+        product[i].style.display = "";
+      } else {
+        product[i].style.display = "none";
+      }
+    }
+  }
+};
